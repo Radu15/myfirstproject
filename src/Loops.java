@@ -61,7 +61,7 @@ public class Loops {
             System.out.println("imi place sa mananc" + f );
         }
         //ex5
-        for(int luna=1;luna<=12;luna++)
+        for(int luna=1;luna<=12;luna++)// sau int luna=7
         switch (luna){
             case 1: System.out.println(luna+"-> Ianuarie");break;
             case 2: System.out.println(luna+"-> Februarie");break;
@@ -74,7 +74,7 @@ public class Loops {
             case 9: System.out.println(luna+"->Septembrie");break;
             case 10: System.out.println(luna+"->Octombrie");break;
             case 11: System.out.println(luna+"->Noiembrie");break;
-            case 12: System.out.println(luna+"->Decembrie");break;
+            case 12: System.out.println(luna+"->Decembrie"); break;
             default: System.out.println("unknouwn");}
 
 

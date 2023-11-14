@@ -31,7 +31,7 @@ public class conditionlas {
 
         }
         //ex1 op
-        int temp= 25;
+        int temp= 27;
         if (temp<18){
             System.out.println("prea frig");
         }
@@ -69,8 +69,11 @@ public class conditionlas {
         //ex5
         char letter='i';
         if (letter =='a'|| letter=='e'|| letter=='i'|| letter=='o'|| letter=='u'){
-            System.out.println(letter+" este vocala");}
+            System.out.println(letter+" este vocala");
+        }
             else System.out.println(letter+" este consoana");
+
+
 
 
 }

@@ -49,7 +49,7 @@ public class Operators {
         int x = 10;
         System.out.println(++x);
         //ex,4//
-        x -= 5;
+        x += 5;
         System.out.println(x);
         //ex,5//
         int y = 3;
@@ -62,7 +62,7 @@ public class Operators {
 
         }
         //ex6//
-        if ((k % 2) == 0) {
+        if (k % 2 == 0) {
             System.out.println("suma este numar par");
         }
         //ex optionale 1//
@@ -80,9 +80,9 @@ public class Operators {
         System.out.println(var1);
         //ex3//
         for (int i = 0; i< 2; i++) {
-            var1--;
+            var2--;
         }
-        System.out.println(var1);
+        System.out.println(var2);
         //ex4//
         boolean cond1=false;
         boolean cond2=false;
@@ -99,7 +99,6 @@ public class Operators {
         System.out.println(condition1);
         boolean condition2=cond1==true && cond2==true;
         System.out.println(condition2);
-
 
 
 
