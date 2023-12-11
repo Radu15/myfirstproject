@@ -13,6 +13,10 @@ public class JavaMethods {
         getSum(2.3,5.6);
         helloNameAge("Cristina",19);
         printFriends("Cristina","Ioana");
+        System.out.println(getSumWhitReturn(5,6));
+        System.out.println(getProductReturn(2,6));
+        System.out.println(areMere( " Ana"));
+        System.out.println(areMere("Radu"));
 
 
     }
@@ -53,6 +57,15 @@ public class JavaMethods {
     }
     private static void getProduct(int x, int y){
         System.out.println(x*y);
+    }
+    private static int getSumWhitReturn(int x,int y){
+                return  x+y;
+    }
+    private  static int getProductReturn(int x,int y){
+        return x*y;
+    }
+    private static String areMere(String nume){
+        return nume+" are mere";
     }
 
 

@@ -19,8 +19,10 @@ public class Algoritm {
             System.out.println(t+": "+t.length());
             System.out.println(t.contains("m"));
             if (t.charAt(0)=='A'){ System.out.println(t);}
+
             String cea_mai_lunga=tari[0];
             String cea_mai_scurta=tari[0];
+
             for (String c:tari){
                 if ( c.length()>cea_mai_lunga.length())
                 {
@@ -33,6 +35,7 @@ public class Algoritm {
             }
             System.out.println("cea mai lunga tara " + cea_mai_lunga);
             System.out.println("cea mai scurta tara " +cea_mai_scurta);
+
         }
 
 
