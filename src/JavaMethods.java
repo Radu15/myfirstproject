@@ -6,13 +6,16 @@ public class JavaMethods {
         weLearn();
         helloName("Cristina");
         helloName("Lavinia");
+        helloName("Radu");
         getSum(2,3);
         getSum(10,5);
         getProduct(2,3);
         getSum(2,3,5);
         getSum(2.3,5.6);
         helloNameAge("Cristina",19);
+        helloNameAge("Radu",35);
         printFriends("Cristina","Ioana");
+        printFriends("Radu","Andrei");
         System.out.println(getSumWhitReturn(5,6));
         System.out.println(getProductReturn(2,6));
         System.out.println(areMere( " Ana"));
