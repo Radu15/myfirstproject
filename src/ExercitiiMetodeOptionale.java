@@ -2,12 +2,13 @@ public class ExercitiiMetodeOptionale {
     public static void main(String[] args) {
 
         ninge();
-        System.out.println(isPar(7));
+        System.out.println(isPar(8));
 
         anotimp("aprilie");
         anotimp("august");
         anotimp("octombrie");
         anotimp("ianuarie");
+        anotimp("seara");
 
         System.out.println(maxim(2,6));
         System.out.println(maxim(4,1));
@@ -24,7 +25,6 @@ public class ExercitiiMetodeOptionale {
 
         System.out.println(sumaCifre(256));
         System.out.println(sumaCifre(123456789));
-
 
 
     }

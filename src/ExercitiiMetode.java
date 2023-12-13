@@ -6,7 +6,7 @@ public class ExercitiiMetode {
         System.out.println("Ex4: Lungime cuvant: "+ lungimeCuvant("Radu"));
         System.out.println("Ex5: Concatenare: "+ concatenare("Radu"," Chis"));
         System.out.println("Ex6:");
-        invers("Vacanta");
+        invers("Radu");
 
     }
 
